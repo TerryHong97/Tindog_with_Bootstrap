@@ -13,11 +13,10 @@ h1 {
 #title {
   background-color: #ff4c68;
   color: white;
+  padding: 7% 15%
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
+
 
 /* Navigation Bar */
 
@@ -64,6 +63,7 @@ h1 {
   right: 30%;
 }
 
+
 /* Features Section */
 
 #features {
@@ -91,13 +91,13 @@ h1 {
   color: #ff4c68;
 }
 
-.features-title {
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 1.5rem;
 }
 
-.features-content {
+p {
   color: #8f8f8f;
 }
 
@@ -110,7 +110,7 @@ h1 {
   color: white;
 }
 
-.testimonial-text {
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3rem;
@@ -148,4 +148,52 @@ h1 {
 
 .card {
   padding: 0;
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  /* padding: 3% 0; */
+}
+
+.cta-text {
+  color: white;
+  font-size: 3.5rem;
+  padding: 5% 0 2.5%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  padding: 0.6rem;
+}
+
+.copyright-text {
+  margin-top: 1rem;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1040px) {
+  .title-image-div {
+    position: static;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding: 10% 0 5%
+  }
+  #title {
+    text-align: center;
+  }
 }
